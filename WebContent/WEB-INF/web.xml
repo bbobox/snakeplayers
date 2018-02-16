@@ -16,11 +16,20 @@
 		<servlet-name>PlayerRegistration</servlet-name>
 		<url-pattern>/player_registration</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Connexion</servlet-name>
+		<servlet-class>com.snakerpg.servlets.Connexion</servlet-class>
+  	</servlet>
+  	
+  	
+	<servlet-mapping>
+		<servlet-name>Connexion</servlet-name>
+		<url-pattern>/player_connection</url-pattern>
+	</servlet-mapping>
   	
   	
   
-
-	
-	
 
 </web-app>
