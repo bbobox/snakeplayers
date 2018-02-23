@@ -6,10 +6,13 @@
         <meta charset="utf-8" />
         <title>Inscription</title>
         <script src="bootstrap/js/bootstrap.js"></script>
-          <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-          <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-          <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <script src="bootstrap/js/bootstrap.js"></script>
 		<script type="text/javascript">
+		
+		/* Partie concernanat le Javascript: Jquery */
+		
 		$('#myModal').on('shown.bs.modal', function () {
 			  $('#myInput').trigger('focus')
 			})
@@ -27,7 +30,7 @@
 <!-- 	 	  	Connectez vous -->
 <!-- 	</button> -->
 	
-<!-- 	<!-- Modal --> -->
+<!-- 	<!-- Modal --> 
 <!-- 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
 <!-- 	  <div class="modal-dialog" role="document"> -->
 <!-- 	    <div class="modal-content"> -->

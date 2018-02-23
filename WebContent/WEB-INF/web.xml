@@ -6,11 +6,11 @@
   version="3.0">
   
   
+   <!--  enregistrement  -->
 	<servlet>
 		<servlet-name>PlayerRegistration</servlet-name>
 		<servlet-class>com.snakerpg.servlets.PlayerRegistration</servlet-class>
   	</servlet>
-  	
   	
 	<servlet-mapping>
 		<servlet-name>PlayerRegistration</servlet-name>
@@ -18,6 +18,8 @@
 	</servlet-mapping>
 	
 	
+	
+	<!--  connexion  -->
 	<servlet>
 		<servlet-name>Connexion</servlet-name>
 		<servlet-class>com.snakerpg.servlets.Connexion</servlet-class>
@@ -27,6 +29,19 @@
 	<servlet-mapping>
 		<servlet-name>Connexion</servlet-name>
 		<url-pattern>/player_connection</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<!-- deconnexion  -->
+	<servlet>
+		<servlet-name>Deconnexion</servlet-name>
+		<servlet-class>com.snakerpg.servlets.Deconnexion</servlet-class>
+  	</servlet>
+  	
+	<servlet-mapping>
+		<servlet-name>Deconnexion</servlet-name>
+		<url-pattern>/player_deconnection</url-pattern>
 	</servlet-mapping>
   	
   	
